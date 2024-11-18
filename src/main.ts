@@ -1,7 +1,6 @@
 import './style.css'
-import { ICharacter } from './contracts/ICharacters'
-import { IEpisode, IEpisodeResult } from './contracts/IEpisode'
-import { ILocation } from './contracts/ILocation'
+
+import { IEpisodeResult } from './contracts/IEpisode'
 import { ICharacterResult } from "./contracts/ICharacters"
 import { ILocationResult } from "./contracts/ILocation"
 
