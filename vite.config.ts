@@ -1,14 +1,14 @@
-import { defineConfig } from "vite"
+import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "",
-    root: "src",
+    root: 'src',
     build: {
-        rollupOptions: {
-            input: {
-                main: "src/mein.html"
+        rollupOptions:
+        {
+            input:
+            {
+                main: 'src/mein.html'
             }
         }
     }
-})
-
+});
